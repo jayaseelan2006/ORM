@@ -2,7 +2,7 @@
 ## Date: 
 
 ## AIM
-To develop a Django application to store and retrieve data from a Book database using Object Relational Mapping(ORM).
+To develop a Django application to store and retrieve data from a subject database using Object Relational Mapping(ORM).
 
 ## Entity Relationship Diagram
 
@@ -20,15 +20,36 @@ Create a new app in Django project
 Enter the code for admin.py and models.py
 
 ### STEP 4:
-Execute Django admin and create details for 10 subjects
+Execute Django admin and create details for 10 subject
 
 ## PROGRAM
 
-Include your code here
+'''
+admin.py
+
+from django.contrib import admin
+from .models import subject
+admin.site.register(subject)
+
+model.py
+
+from django.db import models
+
+# Create your models here.
+class subject(models.Model):
+    subjectid = models.IntegerField()
+    subjectname= models.CharField(max_length=20)
+    subjectmark = models.CharField(max_length=20)
+    subjectmedium = models.CharField(max_length=20)
+
+'''
 
 ## OUTPUT
 
-Include the screenshot of your admin page.
+![OUTPUT](./image.png)
+![OUTPUT](./webpage out(2).png)
+
+![OUTPUT](./Web Map.png)
 
 
 ## RESULT
