@@ -46,10 +46,14 @@ class subject(models.Model):
 
 ## OUTPUT
 
-![OUTPUT](./image.png)
-![OUTPUT](./webpage out(2).png)
 
-![OUTPUT](./Web Map.png)
+![OUTPUT](./image.png)
+
+
+![OUTPUT](./web.png)
+
+
+![OUTPUT](./web1.png)
 
 
 ## RESULT
